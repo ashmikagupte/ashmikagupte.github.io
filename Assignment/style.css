@@ -12,24 +12,24 @@ body, html {
 
 #page1 {
     position: relative;
-    height: 100vh;
-    width: 100vW;
+    height: 950px;
+    width: 1225px;
 }
 
 #page1>nav {
-    width: 100vw;
-    height: 12%;
+    width: 1400px;
+    height: 80px;
     display: flex;
     position: fixed;
     justify-content: space-between;
     align-items: center;
-    padding: 0vw 15vw;
+    padding: 0px 120px;
     background-color: white;
     z-index: 999;
 }
 
 #page1>nav>h4 {
-    font-weight: 750;
+    font-weight: 700;
     color: #AF9453;
 }
 
@@ -52,6 +52,10 @@ body, html {
     color: #af9453;
 }
 
+#nav-right>a.focus {
+    color: #af9453;
+}
+
 #nav-right {
     width: 50%;
     display: flex;
@@ -60,11 +64,10 @@ body, html {
 }
 
 #page1-img {
-    width: 100%;
+    width: 1400px;
     background-image: url("images/image3.png");
-    min-height: 183vh;
+    min-height: 850px;
     background-attachment: fixed;
-    background-position:5% 25%;
     background-repeat: no-repeat;
     background-size: 1400px;
 }
@@ -73,8 +76,8 @@ body, html {
     font-family: Garamond;
     position: absolute;
     text-align: center;
-    top: 55%;
-    left: 50%;
+    top: 35%;
+    left: 55%;
     transform: translate(-50%, -50%);
     font-family: 'Benne';
     font-size: 8vh;
@@ -83,40 +86,34 @@ body, html {
     font-weight: 500;
 }
 
-#page2 {
-    height: 100vh;
-    width: 100vW;
-    background-color: white;
-}
-
 #page3 {
-    height: 100vh;
-    width: 100vW;
+    height: 700px;
+    width: 1225px;
     position: relative;
 }
 
 .column-1 {
     position: absolute;
-    height: 100vh;
-    width: 45vw;
+    height: 660px;
+    width: 620px;
     margin-left: 90px;
 }
 
 .column-1 img {
-    height: 88%;
-    width: 66%;
+    height: 580px;
+    width: 420px;
 }
 
 .column-2 {
     position: absolute;
-    height: 100vh;
-    width: 55vw;
-    transform: translate(80%);
+    height: 660px;
+    width: 790px;
+    transform: translate(78%);
 }
 
 .column-2 img {
-    width: 88%;
-    height: 88%;
+    height: 580px;
+    width: 690px;
 }
 
 .overlay-text {
@@ -161,8 +158,8 @@ body, html {
 }
 
 #page4 {
-    height: 89vh;
-    width: 100vW;
+    height: 630px;
+    width: 1400px;
     position: relative;
 }
 
@@ -190,7 +187,7 @@ body, html {
 
 .centered-text-p {
     font-family: Garamond;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .bottom-text {
@@ -226,35 +223,35 @@ body, html {
 }
 
 #page5 {
-    margin-top: 12vh;
-    height: 115vh;
-    width: 100vW;
+    margin-top: 80px;
+    height: 630px;
+    width: 1400px;
     position: relative;
     padding-left: 7%;
 }
 
 .image-section {
     background-image: url("images/image2.png");
-    min-height: 115vh;
+    min-height: 740px;
     position: relative;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    width:85vw;
+    background-size: 1400px;
+    width:1200px;
 }
 
 .image-section img {
     margin-left: 57%;
     margin-top: 7%;
-    height: 90vh;
-    width: 30vw;
+    height: 580px;
+    width: 420px;
     
 }
 
 .overlay-text2 {
     position: absolute;
-    top: 57%;
+    top: 58%;
     left: 75%;
     transform: translate(-50%, -50%);
     color: white;
@@ -294,9 +291,9 @@ body, html {
 }
 
 .footer {
-    margin-top: 14vh;
-    width: 100vw;
-    height: 35vh;
+    margin-top: 200px;
+    width: 1335px;
+    height: 320px;
 }
 
 .footer-left-column {
@@ -310,10 +307,10 @@ body, html {
     color: white; 
     display: flex;
     width: 90%;
-    height: 35vh;
+    height: 250px;
     justify-content: space-between;
     align-items: center;
-    margin-left: 4.5vw;
+    margin-left: 95px;
 }
 
 .footer-column {
@@ -323,13 +320,17 @@ body, html {
     text-align: start;
 }
 
+#footer-col2-id {
+    padding-right: 80px;
+}
+
 .footer-column3 p {
     padding: 20px 40px 20px 20px;
 }
 
 .footer-column:nth-child(1),
 .footer-column:nth-child(2) {
-    margin-right: 10px;
+    margin-right: 4px;
 }
 
 .footer-column:nth-child(3) {
@@ -354,12 +355,6 @@ body, html {
     width: 100%;
     box-sizing: border-box;
 }
-
-#end {
-    width: 100vw;
-    height: 10vh;
-}
-
 
 
 

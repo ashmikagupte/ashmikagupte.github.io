@@ -1,0 +1,368 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: white;
+    color: #83734c; /* Highlighted text color */
+    display: flex;
+    position: fixed;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 15px 20px;
+    gap: 350px;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 1.0rem;
+    color: #af9453; /* Logo text color */
+}
+
+/* nav {
+    float: right;
+} */
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-left: 50px; /* Increase spacing on the right side */
+}
+
+nav a {
+    text-decoration: none;
+    color: black; /* Default text color */
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover, a:active {
+    color: #af9453; /* Correct hover color */
+}
+
+nav a.selected {
+    color: #83734c; /* Selected tab color */
+}
+
+.container {
+    /*position: relative;
+    text-align: center;
+    color: white;
+    height: 900px; */
+    background-image: url("images/image3.png");
+
+  /* Set a specific height */
+    min-height: 800px; 
+
+  /* Create the parallax scrolling effect */
+    position: relative;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    
+}
+
+.first-image {
+    /* width:100%;
+    height:900px;
+    background-attachment: fixed; */
+}
+
+.leftimage {
+    padding-left: 40px;
+    width:400px;
+}
+
+.rightimage {
+    padding-right: 40px;
+    width:800px;
+}
+
+.first-image-text {
+    font-family: 'Benne'; /* Change to your desired font family */
+    font-size: 50px; /* Change to your desired font size */
+    letter-spacing: 15px; /* Add letter spacing */
+     /* Change to your desired font style */
+    color: #fff; /* Change to your desired text color */
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 75px;
+    align-items: flex-start; 
+    margin: 80px; 
+}
+
+.image-container img {
+    height: 550px; /* Make images take the full height of the container */
+    object-fit: cover; /* Ensure images maintain aspect ratio and cover the container */
+    position: relative; /* Enable absolute positioning for overlay text */
+}
+
+.column {
+    position: relative; /* Add this line */
+}
+
+.discover-box {
+    margin-top: -70px;
+}
+
+.overlay-text1 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-left: 20px;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+.overlay-text2 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-left: -20px;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+.overlay-text1 p {
+    text-align: center;
+    margin-bottom: 95px; /* Default spacing */
+    margin-top: -4px; /* Default spacing */
+}
+
+.overlay-text1 p:nth-child(1) {
+    font-family: 'Arial', sans-serif;
+    font-size: 40px;
+    letter-spacing: 15px; /* Adjust letter spacing for the first paragraph */
+}
+
+.overlay-text1 p:nth-child(2) {
+    font-family: 'Times New Roman', serif;
+    font-size: 22px;
+    letter-spacing: 4px; /* Adjust letter spacing for the second paragraph */
+}
+
+.overlay-text1 p:nth-child(3) {
+    font-family: 'Courier New', monospace;
+    font-size: 20px;
+}
+
+.overlay-text1 .discover-box {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 2px solid white;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.overlay-text2 p {
+    text-align: center;
+    margin-bottom: 95px; /* Default spacing */
+    margin-top: -4px; /* Default spacing */
+}
+
+.overlay-text2 p:nth-child(1) {
+    font-family: 'Arial', sans-serif;
+    font-size: 40px;
+    letter-spacing: 15px; /* Adjust letter spacing for the first paragraph */
+}
+
+.overlay-text2 p:nth-child(2) {
+    font-family: 'Times New Roman', serif;
+    font-size: 22px;
+    letter-spacing: 4px; /* Adjust letter spacing for the second paragraph */
+}
+
+.overlay-text2 p:nth-child(3) {
+    font-family: 'Courier New', monospace;
+    font-size: 20px;
+}
+
+.overlay-text2 .discover-box {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 2px solid white;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+@media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+}
+
+.quote-section {
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 0px;
+    padding-bottom: 130px;
+    padding-right:0px;
+    position: relative;
+}
+
+.top-quotes {
+    font-family: serif;
+    font-size: 70px;
+    margin-bottom: 10px;
+    color: black; /* Change to your desired color */
+}
+
+.centered-text {
+    font-family: serif; /* Change to your desired font family */
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px 0; /* Add equal spacing top and bottom */
+}
+
+.bottom-text {
+    font-family: "Gill Sans", sans-serif;
+    margin-top: 20px; /* Add equal spacing top */
+    font-size: 16px;
+    color:#AF9453; /* Change to your desired color */
+}
+
+.arrows {
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #83734c; /* Change to your desired color */
+}
+
+.left-arrow {
+    left: 90px; /* Adjust left margin */
+    top: 50%; /* Center vertically */
+}
+
+.right-arrow {
+    right: 90px; /* Adjust right margin */
+    left: auto;
+    top: 50%; /* Center vertically */
+}
+
+/* Additional styling if needed */
+.left-arrow:hover,
+.right-arrow:hover {
+    color: #af9453; /* Change to your desired hover color */
+}
+
+.image-section {
+
+    
+    background-image: url("images/image2.png");
+
+  /* Set a specific height */
+    min-height: 750px; 
+
+  /* Create the parallax scrolling effect */
+    position: relative;
+    margin-left: 80px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width:90%;
+    
+
+}
+
+/* .main-image {
+    width: calc(100% - 180px); /* 90px left margin + 90px right margin */
+    /* height: 800px; Set the desired height */
+    /* margin: 0 90px; 90px margin on both left and right sides */
+    /* object-fit: cover; Ensure the image covers the container */
+/* } */
+
+.overlay {
+    position: absolute;
+    top: 90px; 
+    right: 40px; 
+    width: auto; 
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.flower-image {
+    max-width: 100%; 
+    height: auto;
+    margin-right: 50px;
+}
+
+footer {
+    background-color: #af9453; 
+    color: #fff; 
+    /* padding: 30px 60px;  */
+    text-align: center;
+    margin: 90px 90px;
+}
+.footer-left-column {
+    padding: 30px 60px; 
+    display: flex;
+}
+
+.footer-content {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.footer-column {
+    flex: 1;
+    padding: 20px;
+    border-right: 2px solid #fff; 
+}
+
+
+.footer-column:nth-child(1),
+.footer-column:nth-child(2) {
+    margin-right: 10px;
+}
+
+.footer-column:nth-child(3) {
+    border-right: none; 
+}
+
+.footer-column:nth-child(4) {
+    border-right: none;
+}
+
+.footer-box {
+    padding-right: 10px; 
+    margin-left: 250px;
+}
+
+.footer-box .discover-box {
+    flex: 1;
+    text-align: center;
+    padding: 8px 13px;
+    border: 2px solid white;
+    width: 100%;
+    box-sizing: border-box;
+}

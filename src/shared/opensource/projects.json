@@ -152,6 +152,25 @@
       },
       {
         "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzY=",
+        "name": "Meta University - VR Development",
+        "createdAt": "",
+        "url": "",
+        "description": "🎮 Spearheaded the creation of Meta University, a VR school in Unreal Engine, resulting in a 30% increase in student engagement and a 40% reduction in classroom learning time. Integrated personalized avatars, leading to a 25% boost in student satisfaction, and enhanced retention rates by 50% through immersive educational experiences.",
+        "isFork": false,
+        "languages": [
+          {
+            "name": "C++",
+            "iconifyClass": "logos-c-plusplus"
+          },
+          {
+            "name": "Unreal Engine",
+            "iconifyClass": "logos-unreal-engine"
+          }
+        ]
+      },
+      
+      {
+        "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzY=",
         "name": "Three.js Portfolio",
         "createdAt": "",
         "url": "",

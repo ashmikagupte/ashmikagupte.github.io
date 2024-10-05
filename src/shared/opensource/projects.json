@@ -1,11 +1,55 @@
 {
     "data": [
       {
+        "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzI=",
+        "name": "Delet AI Chatbot Development",
+        "createdAt": "",
+        "url": "",
+        "description": "💬 Led the development of an advanced AI chatbot using GPT-4 and GPT-3.5-turbo models, integrated with MongoDB for context-aware responses. Improved system accuracy by 35%, reduced errors by 50%, and achieved a 40% reduction in response times. Implemented multi-turn conversation handling and dynamic context switching, boosting query resolution by 45% and reducing escalation to human agents by 60%, driving cost savings.",
+        "isFork": false,
+        "languages": [
+          {
+            "name": "Python",
+            "iconifyClass": "logos-python"
+          },
+          {
+            "name": "MongoDB",
+            "iconifyClass": "logos-mongodb"
+          },
+          {
+            "name": "LangChain",
+            "iconifyClass": "logos-langchain"
+          }
+        ]
+      },      
+      {
+        "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzE=",
+        "name": "HR AI - Automated Resume Screening and Interviewing",
+        "createdAt": "",
+        "url": "",
+        "description": "🤖 Built an AI-driven system that automates the entire recruitment process. From resume screening, keyword detection, to conducting and assessing AI-based interviews, the system efficiently ranks and shortlists candidates using LLMs, streamlining the hiring workflow.",
+        "isFork": false,
+        "languages": [
+          {
+            "name": "Python",
+            "iconifyClass": "logos-python"
+          },
+          {
+            "name": "TensorFlow",
+            "iconifyClass": "logos-tensorflow"
+          },
+          {
+            "name": "LLMs",
+            "iconifyClass": "logos-openai"
+          }
+        ]
+      },
+      {
         "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
         "name": "Automated Question Type Coding for Forensic Interviews",
         "createdAt": "",
         "url": "",
-        "description": "🔥 Led the development of an automated question coding system using real forensic interview data. Introduced a novel 4-type model that achieved high human-machine agreement, demonstrating accuracy rates of 82% for non-questions, 82% for option-posing questions, 98% for wh-questions, and 96% for invitations, leveraging oversampling techniques and fine-tuning the RoBERTa  model from HuggingFace for optimal performance.",
+        "description": "🔥 Led the development of an automated forensic interview question coding system, achieving 82-98% accuracy across question types using a fine-tuned RoBERTa model from HuggingFace. Applied oversampling techniques to enhance model performance and human-machine agreement.",
         "isFork": false,
         "languages": [
           {
@@ -19,11 +63,29 @@
         ]
       },
       {
+        "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
+        "name": "Drug Molecule Effectiveness Prediction with Enhanced GNNs",
+        "createdAt": "",
+        "url": "",
+        "description": "🔬 Developed a model to predict drug molecule effectiveness using enhanced GNNs, simulating drug interactions including Drug-Target, Drug-Drug, Drug-Catalyst, and Drug-Solvent interactions. Combined multiple datasets and leveraged multimodal GNN architectures to improve predictive accuracy.",
+        "isFork": false,
+        "languages": [
+          {
+            "name": "Python",
+            "iconifyClass": "logos-python"
+          },
+          {
+            "name": "PyTorch",
+            "iconifyClass": "logos-pytorch"
+          }
+        ]
+      },
+      {
         "id": "R_kgDOG_vYHA",
         "name": "Text Based Image Retrieval via Low-Resourced Indic Languages",
         "createdAt": "",
         "url": "",
-        "description": "📦 Contributed to a resilient image retrieval system for low-resourced Indic languages. Implemented a Siamese network with triplet loss, achieving 68.83% and 66.66% accuracy for English and Hindi models which is 2% more than the current benchmarks, and utilized MuRIL for effective text embedding.",
+        "description": "📦 Contributed to an image retrieval system for low-resource Indic languages, implementing a Siamese network with triplet loss. Achieved 2% better accuracy than benchmarks, with 68.83% for English and 66.66% for Hindi models, utilizing MuRIL for text embedding.", 
         "isFork": false,
         "languages": [
           {
@@ -41,7 +103,7 @@
         "name": "Constellation: An End-to-End Machine Learning Platform",
         "createdAt": "",
         "url": "",
-        "description": "🌀  Played a pivotal role in building a potent MLOps platform, reducing model deployment and management time by 70%. Directed the creation of a user-friendly SDK for seamless integration, boosting efficiency. Architected vital features like model versioning, automated testing, and performance monitoring, yielding a 50% accuracy improvement. Utilized AutoML for 60% faster model selection and 75% quicker hyperparameter tuning and feature engineering.",
+        "description": "🌀 Played a key role in developing an MLOps platform, cutting model deployment time by 70%. Directed the creation of a user-friendly SDK, and implemented key features like model versioning, automated testing, and performance monitoring, improving accuracy by 50%. Utilized AutoML to accelerate model selection and hyperparameter tuning by up to 75%.",
         "isFork": false,
         "languages": [
           {
@@ -55,11 +117,111 @@
         ]
       },
       {
+        "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzY=",
+        "name": "Stock Application",
+        "createdAt": "",
+        "url": "",
+        "description": "📈 Developed a stock search application using the Finnhub API to allow users to search for stock ticker symbols. Implemented features like autocomplete suggestions and stock detail pages, utilizing AJAX for asynchronous data retrieval and Node.js for server-side operations.",
+        "isFork": false,
+        "languages": [
+          {
+            "name": "JavaScript",
+            "iconifyClass": "logos-javascript"
+          },
+          {
+            "name": "Node.js",
+            "iconifyClass": "logos-nodejs"
+          },
+          {
+            "name": "MongoDB",
+            "iconifyClass": "logos-mongodb"
+          },
+          {
+            "name": "HTML5",
+            "iconifyClass": "logos-html5"
+          },
+          {
+            "name": "CSS3",
+            "iconifyClass": "logos-css3"
+          },
+          {
+            "name": "Angular",
+            "iconifyClass": "logos-angular"
+          }
+        ]
+      },
+      {
+        "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzY=",
+        "name": "Three.js Portfolio",
+        "createdAt": "",
+        "url": "",
+        "description": "🌐 Created a dynamic portfolio website using Three.js for 3D visualizations, showcasing projects and skills. Implemented interactive elements to enhance user engagement and improve the overall presentation of my work.",
+        "isFork": false,
+        "languages": [
+          {
+            "name": "JavaScript",
+            "iconifyClass": "logos-javascript"
+          },
+          {
+            "name": "HTML5",
+            "iconifyClass": "logos-html5"
+          },
+          {
+            "name": "CSS3",
+            "iconifyClass": "logos-css3"
+          },
+          {
+            "name": "Three.js",
+            "iconifyClass": "logos-threejs"
+          }
+        ]
+      },
+      {
+        "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzY=",
+        "name": "Russia-Ukraine Twitter Sentiment Analysis",
+        "createdAt": "",
+        "url": "",
+        "description": "🕊️ Conducted sentiment analysis on English tweets related to the Russia-Ukraine conflict. Cleaned and processed data using NLP techniques, visualized sentiment distribution globally with geolocation data, and provided insights into public opinion.",
+        "isFork": false,
+        "languages": [
+          {
+            "name": "Python",
+            "iconifyClass": "logos-python"
+          },
+          {
+            "name": "Pandas",
+            "iconifyClass": "logos-pandas"
+          },
+          {
+            "name": "Matplotlib",
+            "iconifyClass": "logos-matplotlib"
+          },
+          {
+            "name": "Seaborn",
+            "iconifyClass": "logos-seaborn"
+          },
+          {
+            "name": "NLTK",
+            "iconifyClass": "logos-nltk"
+          },
+          {
+            "name": "VADER",
+            "iconifyClass": "logos-vader"
+          },
+          {
+            "name": "Geopy",
+            "iconifyClass": "logos-geopy"
+          }
+        ]
+      },
+         
+      
+      {
         "id": "R_kgDOGcPKSQ",
         "name": "Helmet and Number Plate Detector",
         "createdAt": "",
         "url": "",
-        "description": "⚙️  Developed a prototype using YOLOv5 achieving 78% accuracy in detecting helmet-less riders and capturing number plates. Applied object detection for precise helmet detection and used PyTesseract OCR for extracting text from the detected number plates.",
+        "description": "⚙️ Developed a prototype using YOLOv5 that achieved 78% accuracy in detecting helmet-less riders and extracting number plates, utilizing object detection for precise helmet recognition and PyTesseract OCR for text extraction.", 
         "isFork": false,
         "languages": [
           {
@@ -77,7 +239,7 @@
         "name": "Foreign Object Debris (FOD) Detection on Runways",
         "createdAt": "",
         "url": "",
-        "description": "🚀   Conducted research into FOD detection, focusing on CNN-based object detection and segmentation techniques. Explored the potential of millimeter-wave and radio waves technologies for FOD detection. Presented findings in a seminar, effectively communicating the research on advanced FOD detection approaches.",
+        "description": "🚀 Researched FOD detection using CNN-based object detection and segmentation techniques, exploring millimeter-wave and radio wave technologies. Presented findings in a seminar, effectively communicating advancements in FOD detection approaches.",   
         "isFork": false,
         "languages": [
           {
@@ -85,7 +247,38 @@
             "iconifyClass": "logos-python"
           }
         ]
+      },
+      {
+        "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzY=",
+        "name": "Book Recommendation System",
+        "createdAt": "",
+        "url": "",
+        "description": "📚 Developed a book recommendation system using collaborative filtering. Processed user, book, and rating data to create a K-Nearest Neighbors model with cosine similarity, deployed using Streamlit for user-friendly interaction.",
+        "isFork": false,
+        "languages": [
+          {
+            "name": "Python",
+            "iconifyClass": "logos-python"
+          },
+          {
+            "name": "Pandas",
+            "iconifyClass": "logos-pandas"
+          },
+          {
+            "name": "Streamlit",
+            "iconifyClass": "logos-streamlit"
+          },
+          {
+            "name": "NumPy",
+            "iconifyClass": "logos-numpy"
+          },
+          {
+            "name": "Scikit-learn",
+            "iconifyClass": "logos-scikit-learn"
+          }
+        ]
       }
+      
       
     ]
   }

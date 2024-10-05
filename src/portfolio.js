@@ -9,8 +9,8 @@ const settings = {
 const seo = {
   title: "Ashmika's Portfolio",
   description:
-    "In the intricate dance of codes and creativity, I am the data whisperer, ML enthusiast, and problem-solving aficionado, turning challenges into digital elegance. From crunching numbers to crafting elegant ML solutions, I navigate the realms of computer science with a splash of creativity, transforming data into an art form.",
-  og: {
+    "I’m a problem-solver with a passion for data science, machine learning, and software engineering. I love turning complex challenges into smart, practical solutions. Whether it’s analyzing data or building software, I combine logic and creativity to make things work better and faster, transforming raw data into valuable insights and tools.",  
+    og: {
     title: "Ashmika Gupte Portfolio",
     type: "website",
     url: "http://ashmikagupte.github.io",
@@ -23,9 +23,9 @@ const greeting = {
   logo_name: "AshmikaGupte",
   nickname: "Ash",
   subTitle:
-    "In the intricate dance of codes and creativity, I am the data whisperer, ML enthusiast, and problem-solving aficionado, turning challenges into digital elegance. From crunching numbers to crafting elegant ML solutions, I navigate the realms of computer science with a splash of creativity, transforming data into an art form.",
-  resumeLink:
-    "https://drive.google.com/file/d/1ZZj8wA0qPScoWJC_4J0PB0zYqerMtMd7/view?usp=drive_link",
+    "I’m a problem-solver with a passion for data science, machine learning, and software engineering. I love turning complex challenges into smart, practical solutions. Whether it’s analyzing data or building software, I combine logic and creativity to make things work better and faster, transforming raw data into valuable insights and tools.", 
+    resumeLink:
+    "https://drive.google.com/file/d/1u09bKDeCpA5eVQYDf-qX941OHV-Ave04/view?usp=drive_link",
   // portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
   githubProfile: "https://github.com/ashmikagupte",
 };
@@ -72,11 +72,32 @@ const skills = {
       title: "Machine Learning, Deep Learning and AI",
       fileName: "MLImg",
       skills: [
-        "⚡ Designing and implementing cutting-edge models for real-world applications",
-        "⚡ Specializing in Computer Vision and NLP to extract meaningful insights",
-        "⚡ Crafting innovative solutions for dynamic problem-solving"
+        "⚡ Building AI models, including Generative AI and LLMs, to tackle real-world challenges",
+        "⚡ Using Computer Vision, NLP, and RAG to create smarter systems"  
       ],
       softwareSkills: [
+        {
+          skillName: "OepnAI",
+          fontAwesomeClassname: "simple-icons:openai",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "HuggingFace",
+          fontAwesomeClassname: "simple-icons:huggingface",
+          style: {
+            backgroundColor: "white",
+            color: "#D00000",
+          },
+        },
+        {
+          skillName: "Langchain",
+          fontAwesomeClassname: "simple-icons:langchain",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
         {
           skillName: "Tensorflow",
           fontAwesomeClassname: "logos-tensorflow",
@@ -185,16 +206,25 @@ const skills = {
             color: "#3776AB",
           },
         },
+        {
+          skillName: "PowerBI",
+          fontAwesomeClassname: "simple-icons:powerbi",
+          style: {
+            backgroundColor: "transparent",
+            color: "#F2C811",  
+          },
+        },
         
       ],
     },
-        {
+    {
       title: "Web Development",
       fileName: "FullStackImg",
       skills: [
         "⚡ Building responsive and engaging web applications",
-        "⚡ Exploring HTML, CSS, React, Threejs and Angularjs",
-        "⚡ Integrating web development skills to enhance user interfaces",
+        "⚡ Creating dynamic, user-friendly interfaces that enhance engagement",
+        "⚡ Developing full-stack solutions that seamlessly integrate front-end and back-end",
+      
       ],
       softwareSkills: [
         {
@@ -248,10 +278,17 @@ const skills = {
           },
         },
         {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
+          skillName: "Node.js",
+          fontAwesomeClassname: "simple-icons:nodedotjs",
           style: {
-            color: "#CB3837",
+            color: "#339933",
+          },
+        },
+        {
+          skillName: "Git",
+          fontAwesomeClassname: "simple-icons:git",
+          style: {
+            color: "#F05032",
           },
         },
       ],
@@ -262,7 +299,7 @@ const skills = {
       skills: [
         "⚡ Creating immersive experiences in Unity and Unreal Engine",
         "⚡ Developing interactive functionalities for dynamic virtual realms",
-        "⚡ Collaborating with lifelike Virtual Avatars (Metahumans) to enhance user engagement",
+        "⚡ Incorporating lifelike Virtual Avatars (Metahumans) to enhance user engagement",
       ],
       softwareSkills: [
         {
@@ -368,19 +405,36 @@ const competitiveSites = {
       },
       profileLink: "https://leetcode.com/ashmikagupte/",
     },
-    {
-      siteName: "HackerRank",
-      iconifyClassname: "simple-icons:hackerrank",
-      style: {
-        color: "#2EC866",
-      },
-      profileLink: "https://www.hackerrank.com/profile/hsa01032001",
-    }
+    // {
+    //   siteName: "HackerRank",
+    //   iconifyClassname: "simple-icons:hackerrank",
+    //   style: {
+    //     color: "#2EC866",
+    //   },
+    //   profileLink: "https://www.hackerrank.com/profile/hsa01032001",
+    // }
   ],
 };
 
 const degrees = {
   degrees: [
+    {
+      title: "University of Southern California",
+      subtitle: "M.S. in Computer Science",
+      logo_path: "usc_logo.png",
+      alt_name: "USC",
+      duration: "2023 - 2025",
+      descriptions: [
+        "⚡ GPA: 3.6/4.0",
+        "⚡ Key Courses: Analysis of Algorithms, Machine Learning, Natural Language Processing, Deep Learning, Information Retrieval, Web Technologies.",
+        "⚡ Engaged in a research project developing an automated question type coding system for forensic interviews at the USC Child Interviewing Lab, under the guidance of Prof. Thomas D. Lyon, Prof. Zsofia Szojka, and Prof. Keith Burghardt.",
+        "⚡ Collaborated with startups as part of my academic program, applying machine learning techniques to real-world problems, enhancing my skills in data science and software engineering.",
+        "⚡ Vice captain of a USC dance team, where I developed leadership, teamwork, and event management skills, actively contributing to campus life and cultural events.",
+        "⚡ Interning at USC’s Office of Sustainability, where I creat and maintain data dashboards for energy and natural resource usage, utilizing Power BI to improve decision-making processes at the university."
+
+      ],
+      website_link: "https://www.usc.edu/",
+    },
     {
       title: "Pune Institute of Computer Technology",
       subtitle: "B.E. in Computer Engineering with Honors in Artificial Intelligence and Machine Learning",
@@ -396,19 +450,6 @@ const degrees = {
         "⚡ Participated in non-technical clubs, contributing to a holistic development.",
       ],
       website_link: "https://pict.edu/",
-    },
-    {
-      title: "University of Southern California",
-      subtitle: "M.S. in Computer Science",
-      logo_path: "usc_logo.png",
-      alt_name: "USC",
-      duration: "2023 - 2025",
-      descriptions: [
-        "⚡ Relevant Courses: CSCI 570 (Analysis of Algorithms), CSCI 567 (Machine Learning)",
-        "⚡ Engaged in research and projects covering automated question type coding for forensic interviews under the mentorship of Prof. Thomas D. Lyon, Prof. Zsofia Szojka, and Prof. Keith Burghardt.",
-        "⚡ Vice captain of a dance team at USC, contributing to the cultural vibrancy and leadership.",
-      ],
-      website_link: "https://www.usc.edu/",
     },
   ],
 };
@@ -565,6 +606,39 @@ const experience = {
       title: "Internships",
       experiences: [
         {
+          title: "Data Analyst",
+          company: "USC Office of Sustainability",
+          company_url: "https://sustainability.usc.edu/",
+          logo_path: "sus.png",
+          duration: "Aug 2024 - Present",
+          location: "Los Angeles, CA",
+          description:
+            "• Developed and managed real-time dashboards for USC, tracking sustainability metrics like energy, water, and solar usage, while using Power BI to improve data-driven decision-making and align with sustainability goals.",
+            color: "#000000",
+        },
+        {
+          title: "AI Engineer",
+          company: "Delet",
+          company_url: "https://www.delet.com/",
+          logo_path: "delet.jpeg",
+          duration: "May 2024 - Jul 2024",
+          location: "San Francisco, CA",
+          description:
+            "Led the development of an AI chatbot using GPT-4 and GPT-3.5-turbo models, integrated with MongoDB for context-aware responses. Fine-tuned the models, improving accuracy by 35% and reducing errors by 50%. Leveraged LangChain for prompt engineering, reducing response times by 40%. Implemented multi-turn conversation handling, leading to a 45% increase in query resolution and a 60% reduction in escalations.",
+            color: "#000000",
+        },
+        {
+          title: "Machine Learning Engineer Intern",
+          company: "USC Child Interviewing Lab",
+          company_url: "https://uscchildinterviewinglab.org/",
+          logo_path: "child.png",
+          duration: "Sep 2023 - Dec 2024",
+          location: "Los Angeles, CA",
+          description:
+            "Developed an Automated Question Type Coding System for 349,033 forensic interview questions using HuggingFace transformers and PyTorch. Fine-tuned RoBERTa-base, improving rare category detection by 75% and enhancing model robustness with advanced oversampling techniques.", 
+            color: "#000000",
+        },
+        {
           title: "Machine Learning Intern",
           company: "Bitglaze Technologies",
           company_url: "https://www.bitglaze.com/",
@@ -572,19 +646,19 @@ const experience = {
           duration: "Dec 2021 - Jun 2023",
           location: "Pune, India",
           description:
-            "• Played a pivotal role in building a potent MLOps platform, reducing model deployment and management time by 70%. Directed the creation of a user-friendly SDK for seamless integration, boosting efficiency. Architected vital features like model versioning, automated testing, and performance monitoring, yielding a 50% accuracy improvement. Utilized AutoML for 60% faster model selection and 75% quicker hyperparameter tuning and feature engineering",
-            color: "#000000",
+            "• Led the development of an advanced MLOps platform, streamlining the machine learning lifecycle and reducing model deployment time by 40%. Directed the creation of a custom low-code SDK (Huble) to enable easy integration and automation. Integrated key features like model versioning, automated data readiness checks, and one-click deployment, improving collaboration across teams. Leveraged AutoML to enhance model selection and hyperparameter tuning, cutting tuning time by 75% and improving overall accuracy by 50%.",
+          color: "#000000",
         },
         {
-          title: "Summer Intern",
+          title: "Software Development Intern",
           company: "Barclays",
           company_url: "https://home.barclays/",
           logo_path: "barclays.png",
           duration: "Jun 2022 - Aug 2022",
           location: "Pune, India",
           description:
-            "• Engineered GUI for real-time Avaloq interface server tracking, reducing error identification time by 50%, and facilitating prompt anomaly detection and issue resolution. Designed intuitive interface displaying live server statuses, resulting in 30% faster anomaly detection and a 60% reduction in server overuse, while allowing instant user verification of server responses through stored message requests.",
-            color: "#ee3c26",
+            "• Developed a comprehensive Interface Health Monitor application for real-time server tracking, reducing server connectivity check time from hours to minutes. Designed a responsive dashboard that enabled 30% faster anomaly detection and reduced issue resolution time by 50%, improving overall system performance.",
+          color: "#ee3c26",
         },
         {
           title: "VR Development Intern",
@@ -592,7 +666,7 @@ const experience = {
           company_url:"https://www.cskaa.com/index.html",
           logo_path: "cska.png",
           duration: "Jan 2022 - Apr 2022",
-          location: "Work From Home",
+          location: "Delhi, India",
           description:
             "• Spearheaded metaverse school project, constructing a dynamic virtual reality realm with immersive mini-games and activities. Leveraged Unreal Engine to engineer interactive functionalities, while integrating lifelike Virtual Avatars (Metahumans) for heightened engagement within the virtual environment.",
             color: "#0071C5",
@@ -605,7 +679,7 @@ const experience = {
           duration: "May 2021 - Jan 2022",
           location: "Pune, India",
           description:
-            "• Executed web scraping with tools like webscraper.io and beautiful soup, gathering pertinent data for analysis. Utilized techniques such as data preprocessing and topic modeling for robust data analysis, supported by visualization tools like Tableau and PowerBI to communicate insights effectively.",
+            "• Built robust web scraping pipelines using Beautiful Soup to gather structured data from various sources. Applied data preprocessing and topic modeling techniques for thorough analysis. Used visualization tools like Tableau and Power BI to present insights, improving decision-making efficiency by 30%.",
             color: "#ee3c26",
         },
         {
@@ -614,7 +688,7 @@ const experience = {
           company_url:"https://www.thesparksfoundationsingapore.org/",
           logo_path: "sparks.png",
           duration: "Jan 2021 - March 2021",
-          location: "Work From Home",
+          location: "Pune, India",
           description:
             "• Performed Exploratory Data Analysis using Tableau to find out meaningful insights from the interactive graphs that were created from the datasets. Implemented Supervised and Unsupervised machine learning models, trained them on the data so that they can predict results with high accuracy on the unseen test data.",
             color: "#0071C5",
@@ -822,7 +896,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "animated_ashutosh.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. Willing to collaborate for ML, Data Science, AI and Development projects.",
+      "Willing to collaborate for ML, Data Science, AI and Development projects.",
   },
   blogSection: {
     title: "Blogs",
